@@ -29,8 +29,7 @@ function App() {
         <ByDay data={data.by_day} types={types}/>
         <ByMonth data={data.by_month} types={types}/>
         <div className="Footer">
-          Created by <a href="http://tany.kim" target="_blank" rel="noopener noreferrer">Tanyoung Kim</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-          View code on <a href="https://github.com/tanykim/shades-of-exercise" target="_blank" rel="noopener noreferrer">GitHub</a>
+          Created by <a href="http://tany.kim" target="_blank" rel="noopener noreferrer">Tanyoung Kim</a>&nbsp;&nbsp;|&nbsp;&nbsp;View code on <a href="https://github.com/tanykim/shades-of-exercise" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
     </div>

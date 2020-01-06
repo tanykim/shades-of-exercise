@@ -5,6 +5,7 @@
 .labels {
   margin-top: 32px; /* the handwriting font has a bit larger top margin, so reduce 2px */
   margin-right: 16px;
+  margin-left: 12px;
 }
 .days {
   display: flex;
@@ -12,6 +13,7 @@
 }
 .day-wrapper:not(:last-child) {
   margin-right: 20px;
+  margin-bottom: 12px;
 }
 
 .day-title {
@@ -42,5 +44,4 @@
 }
 .row.total .number {
   padding-right: 16px;
-  margin-left: 6px;
 }

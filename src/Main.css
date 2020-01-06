@@ -1,5 +1,5 @@
-table {
-  border-spacing: 0;
+.Main {
+  border-spacing: 0px;
 }
 .row-day {
   font-size: 12px;
@@ -7,6 +7,7 @@ table {
 .month-name {
   text-align: right;
   padding-right: 8px;
+  margin-left: 12px;
 }
 .week-label {
   display: flex;
