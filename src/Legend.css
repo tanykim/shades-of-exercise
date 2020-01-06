@@ -1,0 +1,25 @@
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item,
+.type {
+  display: flex;
+  align-items: center;
+}
+.item .type {
+  text-transform: capitalize;
+}
+.item .type .icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+.item .count {
+  margin-left: 8px;
+}
+.item:not(:last-child) {
+  margin-right: 16px;
+}

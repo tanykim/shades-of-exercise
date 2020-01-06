@@ -1,0 +1,46 @@
+.ByDay {
+  display: flex;
+}
+
+.labels {
+  margin-top: 32px; /* the handwriting font has a bit larger top margin, so reduce 2px */
+  margin-right: 16px;
+}
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
+.day-wrapper:not(:last-child) {
+  margin-right: 20px;
+}
+
+.day-title {
+  height: 32px;
+}
+
+.row {
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+.row.label {
+  justify-content: flex-end;
+  text-transform: capitalize;
+}
+.row.total {
+  margin-top: 8px;
+  position: relative;
+}
+.row.total .text,
+.row.total .number {
+  border-top: 1px solid black;
+  padding-top: 4px;
+  display: inline-block;
+}
+.row.total .text {
+  padding-left: 16px;
+}
+.row.total .number {
+  padding-right: 16px;
+  margin-left: 6px;
+}

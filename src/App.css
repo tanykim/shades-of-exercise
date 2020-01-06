@@ -1,0 +1,60 @@
+.App {
+  font-family: "Shadows Into Light Two", cursive;
+}
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 24px;
+  padding: 0 16px 4px;
+  text-align: center;
+  margin-top: 24px;
+}
+.Legend {
+  margin-top: 8px;
+}
+.Main,
+.ByDay,
+.ByMonth,
+.Footer {
+  margin-top: 32px !important;
+  border-top: 1px solid var(--grey);
+  padding-top: 32px;
+}
+.Footer {
+  margin-bottom: 32px;
+}
+
+.bg-0 {
+  background-color: var(--activity-0);
+}
+.bg-1 {
+  background-color: var(--activity-1);
+}
+.bg-2 {
+  background-color: var(--activity-2);
+}
+.bg-3 {
+  background-color: var(--activity-3);
+}
+.bg-4 {
+  background-color: var(--activity-4);
+}
+.fill-0 {
+  fill: var(--activity-0);
+}
+.fill-1 {
+  fill: var(--activity-1);
+}
+.fill-2 {
+  fill: var(--activity-2);
+}
+.fill-3 {
+  fill: var(--activity-3);
+}
+.fill-4 {
+  fill: var(--activity-4);
+}

@@ -1,0 +1,17 @@
+.Bars {
+  width: 160px;
+}
+.bar-wrapper {
+  width: 100%;
+  position: relative;
+}
+.bar {
+  height: 20px;
+}
+.value {
+  margin-left: 6px;
+}
+.value.inside {
+  position: absolute;
+  right: 6px;
+}

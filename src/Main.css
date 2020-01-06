@@ -1,0 +1,54 @@
+table {
+  border-spacing: 0;
+}
+.row-day {
+  font-size: 12px;
+}
+.month-name {
+  text-align: right;
+  padding-right: 8px;
+}
+.week-label {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 24px;
+  overflow: hidden;
+}
+.month-dates {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.month-week {
+  display: inline-flex;
+}
+.day,
+.date {
+  width: 32px;
+  box-sizing: border-box;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  height: 32px;
+  position: relative;
+}
+.solid {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.solid .fill,
+.solid .fill-half {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+}
+.solid .fill {
+  z-index: -2;
+}
+.solid .fill-half {
+  z-index: -1;
+}

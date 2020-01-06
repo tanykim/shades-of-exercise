@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two&display=swap");
+
+:root {
+  --activity-0: #5ec7f8; /* swimming */
+  --activity-1: #f78c6c; /* yoga */
+  --activity-2: #9bda7e; /* gym */
+  --activity-3: #ffcb6b; /* biking */
+  --activity-4: #bb80b3; /* running */
+  --grey: #caccd6;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: black;
+}

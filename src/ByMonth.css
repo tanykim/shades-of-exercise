@@ -1,0 +1,29 @@
+.ByMonth {
+  border-spacing: 8px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-right: 20px;
+}
+.stacked {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.stack {
+  height: 24px;
+  font-size: 12px;
+  text-align: right;
+  box-sizing: border-box;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+.ByMonth .label {
+  text-align: right;
+  width: 20px;
+}
+.ByMonth .total {
+  margin-left: 6px;
+  position: absolute;
+}
