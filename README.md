@@ -1,6 +1,6 @@
-# shades-of-activity
+# Shades of Exercise
 
-Daily activity visualization
+Daily activity visualization of a given year. Dataset is generated with various methods.
 
 ## Made with React
 
