@@ -26,8 +26,7 @@
 .day,
 .date {
   width: 32px;
-  box-sizing: border-box;
-  margin: 2px;
+  border: 2px solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,20 +35,72 @@
   height: 32px;
   position: relative;
 }
-.solid {
+.date.valid,
+.date.black {
+  cursor: pointer;
+}
+.date.black.valid.with-data {
+  color: white;
+}
+.active {
   position: absolute;
   top: 0;
   left: 0;
 }
-.solid .fill,
-.solid .fill-half {
+.inactive {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.active .fill,
+.active .fill-half {
   position: absolute;
   width: 32px;
   height: 32px;
 }
-.solid .fill {
+.active .fill {
   z-index: -2;
 }
-.solid .fill-half {
+.active .fill-half {
   z-index: -1;
+}
+.inactive .fill {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+.tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transform: translate(calc(-50% + 16px), calc(-100% + 4px));
+}
+
+.tooltip-content {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  width: max-content;
+}
+.tooltip-activity {
+  margin-top: 4px;
+}
+.tooltip-type {
+  text-transform: capitalize;
+  display: inline-block;
+  color: black;
+  padding: 0 6px;
+  border-radius: 2px;
+}
+.tooltip-arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+  margin-left: calc(50% - 16px + 5px);
 }

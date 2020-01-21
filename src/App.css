@@ -58,3 +58,6 @@
 .fill-4 {
   fill: var(--activity-4);
 }
+.fill-black {
+  fill: black;
+}
